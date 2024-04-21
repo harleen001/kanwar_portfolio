@@ -1,0 +1,154 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    
+  }
+  
+  h2 {
+    font-size: 3rem;
+    max-width: 500px;
+    font-family: termina, sans-serif;
+    text-transform: lowercase;
+    line-height: 1.4;
+    color: #1a292c;
+    @media (max-width: 600px) {
+      font-size: 1.8rem;
+    }
+  }
+  
+  .reveal-text {
+    visibility: hidden;
+  }
+  
+  .line {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  section {
+    
+    background: #c9c7b4;
+    display: inline-flex;
+    place-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 10vw;
+  }
+  
+  section:nth-child(2) {
+    background: #efeae7;
+  }
+  
+  section:nth-child(3) {
+    background: #d3a488;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .credit {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-family: Termina, sans-serif;
+    font-weight: 800;
+    font-size: 0.7rem;
+  
+    a {
+      color: #1a292c;
+      text-transform: lowercase;
+    }
+  }
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  #gallery {
+    padding-top: 10%
+}
+
+.image-node {
+    width: 1064px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.image.is-256x256 {
+    padding: 5px;
+}
+
+.hover-layer {
+    color: white;
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.tags {
+    opacity: 0;
+}
+
+.tag {
+    margin: 5px;
+}
+
+
+
+/**********************
+    Responsivity, if that word exists, maybe it's responsiveness. Maybe neither.
+**********************/
+
+@media screen and (max-width: 550px) {
+    .image-node {
+        width: 264px;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 803px) {
+    .image-node {
+        width: 532px;
+    }
+}
+
+@media screen and (min-width: 804px) and (max-width: 1063px) {
+    .image-node {
+        width: 798px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .title.is-1 {
+        font-size: 2rem;
+    }
+    .subtitle.is-3 span {
+        font-size: 1.5rem;
+    }
+    #splash header {
+        width: 90%;
+    }
+}
