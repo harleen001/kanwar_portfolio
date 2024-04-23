@@ -37,7 +37,30 @@ section {
   width: 100%;
   padding: 10vw;
 }
+#buttonstwo{
+  display: inline-flex;
+  font-family: termina, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20%;
+  margin-top: -2000px;
 
+}
+#resbutton{
+font-weight: 400 !important;
+  margin-right: 20px;
+}
+#resbutton,#gitbutton{
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 50px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+#gitbutton{
+  background-color: #000;
+  color: white;
+}
 
 
 * {
@@ -132,11 +155,7 @@ margin: 10px;
 transition: 0.45s ease-in all;
 border-radius: 12px;
 }
-.project-img-col img:hover {
--webkit-box-shadow: 0px 6px 58px -8px rgba(224, 75, 0, 1);
--moz-box-shadow: 0px 6px 58px -8px rgba(224, 75, 0, 1);
-box-shadow: 0px 6px 58px -8px rgba(224, 75, 0, 1);
-}
+
 
 #projects .row h1 {
 font-size: 50px;
@@ -245,11 +264,7 @@ margin: 10px;
 transition: 0.45s ease-in all;
 border-radius: 12px;
 }
-.project-img-col img:hover {
--webkit-box-shadow: 0px 6px 58px -8px rgba(224, 75, 0, 1);
--moz-box-shadow: 0px 6px 58px -8px rgba(224, 75, 0, 1);
-box-shadow: 0px 6px 58px -8px rgba(224, 75, 0, 1);
-}
+
 #projects .row h1 {
 font-size: 50px;
 color: var(--orange-color);
