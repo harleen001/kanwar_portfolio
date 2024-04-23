@@ -5,8 +5,8 @@ body {
   
 }
 
-h2 {
-  font-size: 3rem;
+.reveal-text {
+  font-size: 50px;
   max-width: 500px;
   font-family: termina, sans-serif;
   text-transform: lowercase;
@@ -16,7 +16,9 @@ h2 {
     font-size: 1.8rem;
   }
 }
-
+#twoinone{
+  display: inline-flex;
+}
 .reveal-text {
   visibility: hidden;
 }
