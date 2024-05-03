@@ -229,6 +229,7 @@ body {
 background-color: var(--main-bg-color);
 color: var(--white-color);
 font-family: "Poppins Extra Light";
+
 }
 .heading-with-effect h1 {
 font-size: 80px;
@@ -393,7 +394,7 @@ font-family: "Poppins Extra Light";
 
 .get-in-touch {
    max-width: 60%;
-
+height: 40px !important;
 margin-left: 20%;
    
 }
@@ -404,7 +405,7 @@ margin-left: 20%;
      letter-spacing: 3px;
      font-size: 36px;
      line-height: 48px;
-     padding-bottom: 48px;
+    
   }
 
 
@@ -412,6 +413,7 @@ margin-left: 20%;
    .form-field {
       position: relative;
       margin: 32px 0;
+      
    }
    .input-text {
       display: block;
@@ -467,3 +469,22 @@ margin-left: 20%;
    
  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
