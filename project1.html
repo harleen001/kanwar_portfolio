@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Connect 4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+		*{
+			font-family: 'Reddit Sans',sans-serif;
+			margin: 0;
+            padding: 0;
+		}
+		 
+	
+        .container {
+            text-align: center;
+        }
+		 .image-container {
+            position: relative;
+            margin-top: 0;
+            
+        }
+
+        .image {
+            height: 350px;
+            width: 500px;
+             position: relative;
+            z-index: 2;
+        }
+
+        .rectangle {
+			
+			box-shadow: 5px 5px  5px lightgray;
+            position: absolute;
+            padding:10px ;
+            padding-bottom: 0%;
+            top: 280px;
+            left: 250px;
+            width: 310px;
+            height: 200px;
+            background-color: white;
+            z-index: 3;
+        }
+        .rectangle a{
+			margin-top:10px;
+			margin-left: 10px ;
+			padding: 10px 20px;
+			background-color: #990066;
+			color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            display: block;
+		}
+		.rectangle h3,p{
+			text-align: left;
+			padding: 7px;
+			margin-left: 10px ;
+		}
+		
+        .content {
+			z-index: 1;
+            height: 300px;
+            width: 1000px;
+            position: absolute;
+            top: 125px; /* Adjusted to be below the image */
+            left: 50%; /* Center the box */
+            transform: translateX(-50%); /* Center alignment */
+            background-color: #990066;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="image-container">
+        <img class="image" src="./assets/img/game-zone.webp" alt="#">
+        <div class="content">
+            </div>
+    </div>
+    <div class="rectangle">
+		<h3>Connect 4</h3>
+		<p><i>Connect 4 of your colored discs in a row (vertically, horizontally, or diagonally) to win!</i></p>
+		<!-- <p>Connect 4 is a classic game of strategy and skill, where players compete to be the first to connect four of their
+                colored discs in a row(vertically, horizontally or diagonally). With its simple rules and endless possibilities, it's perfect for casual play or intense
+                competitions. Whether you're a seasoned player or new to the game, Connect 4 offers fun and excitement for everyone.</p>
+       -->
+       <a href="game.zip" download>DOWNLOAD</a>
+	</div>
+</div>
+	</body>
+</html>
